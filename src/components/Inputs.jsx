@@ -23,7 +23,7 @@ function Inputs({ setQuery, units, setUnits }) {
         let lon = position.coords.longitude;
 
         setQuery({
-          
+      
           lat,
           lon,
         });

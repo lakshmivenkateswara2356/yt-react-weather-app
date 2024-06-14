@@ -22,7 +22,6 @@ function Inputs({ setQuery, units, setUnits }) {
         let lat = position.coords.latitude;
         let lon = position.coords.longitude;
 
-        
         setQuery({
           lat,
           lon,
